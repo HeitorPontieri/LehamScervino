@@ -1,0 +1,278 @@
+section{
+    height: 100vh;
+    
+}
+
+
+.home{
+
+background-image: url("../img/img home maos.png");
+background-repeat: no-repeat;
+background-size: cover;
+background-blend-mode: darken;
+padding-left: 128px;
+padding-right: 128px;
+z-index: 1;
+
+}
+
+.title-home-container{
+   
+    position: relative;
+    padding-top: 250px;
+    right: 29px;
+    color: white;
+    text-align: center;
+    
+    font-size: 3.7rem;
+    font-family: 'Bebas Neue', cursive;
+    width: 40%;
+
+
+}
+.subtitle-home{
+    display: flex;
+    color: white;
+    font-family: 'Lustria', serif;
+    font-size: 1.2rem;
+    justify-content: flex-end;
+
+}
+.img-casa{
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+    padding-left: 12%;
+}
+.sobrenos{
+    color: white;
+    display: flex;
+    font-size: 180%;
+    transform: translate(200%);
+    text-shadow: black 1.3em 0.2em 0.2em
+    font-family: 'Lustria', serif;
+}
+.caixa1{
+    
+    width: 468px;
+    height: 554px;
+    left: -70px;
+    top: 1px;
+    background: #55775e9f;
+    border-radius: 3px;
+    position: relative;
+    
+}
+.caixa2{
+    width: 432px;
+    height: 527px;
+    left: 10px;
+    top: 10px;
+    z-index: 10;
+    background: #55775E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+.sn-text{
+    color: white;
+    font-family: 'Lustria', serif;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1cm;
+    padding-top: 1cm;
+}
+.caixa1-inclusao{
+    width: 550px;
+    height: 163px;
+    right: 70px;
+    top: 7px;
+    background: #55775e9f;
+    border-radius: 3px;
+    position: relative;
+
+}
+.caixa2-inclusao{
+    width: 521.4px;
+    height: 144.13px;
+    left: 54px;
+    top: 756px;
+    z-index: -1;
+    background: #55775E;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+}
+.texto-inclusao{
+    color: white;
+    font-family: 'Lustria', serif;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1cm;
+    padding-top: 1cm;
+}
+.sn-container{
+position: relative;
+background-color: #829B89;
+display: flex;
+
+}
+
+.sn-container .texto {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 40%;
+}
+.sn-container .imagens {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-grow: 1;
+}
+
+.sn-container .imagens .img-destaque{
+position: absolute;
+}
+
+.sn-container .imagens .produto-img.img-destaque {
+
+top: 596px;
+right: 380px;
+}
+
+
+.sn-container .imagens .dog-img.img-destaque{
+
+top: 25px;
+right: 100px;
+
+
+}
+
+.sn-container .imagens .sobrenos-img.img-destaque{
+
+left: 608px;
+top: 201px;
+}
+.sn-container .imagens .linhas.img-destaque{
+
+    padding-left: 400px;
+    z-index: 3;
+    top: 481px;
+    
+}
+
+
+.tituloo{
+    display: flex;
+    justify-content: center;
+}
+.fundadores-container{
+background-color:  #BBC9BF;
+display: flex;
+}
+.fundadores-title{
+    font-family: 'Mulish', sans-serif;
+    color: #07280F;
+    justify-content: center;
+    align-items: center;
+}
+
+.fundadores{
+    display: flex;
+    width: 950px;
+}
+
+.fundadores-img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+   
+    gap: 111px;
+    margin-left: 200px;
+}
+
+/* .img-mao-planta{
+   background-image: url(../img/imgcolab.png);
+   background-repeat: no-repeat;
+   top: 40%;
+    padding-right: 2500px;
+ 
+   /* height: 600px; */
+   /* width: 1000px;
+   position: relative;
+   
+}  
+
+/* .colaboradores-container{
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+.caixa1-missao{
+width: 351px;
+height: 750px;
+left: 964px;
+top: 1420px;
+display: flex;
+background: rgba(130, 155, 137, 0.81);
+border-radius: 3px;
+z-index: 1;
+transform: translate(50%);
+
+
+}
+.caixa2-missao{
+width: 356px;
+height: 711px;
+left: 978px;
+top: 134px;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+transform: translate(50%);
+
+background: rgba(85, 119, 94, 0.95);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 3px;
+z-index: -1;
+
+}
+.missao-titulo{
+    transform: translate(100%,80%);
+}
+
+.beneficios-container{
+background-color: #BBC9BF;
+    
+}
+.beneficios-titulo{
+    display: flex;
+    justify-content: center;
+}
+.titulo-cap{
+    display: flex;
+    justify-content: center;
+    
+}
+.lista{
+    background-color: tomato;
+    display: flex;
+    
+}
+
+
+
+.vagas-container{
+background-color: #829B89;
+
+    
+}
+footer{
+background-color: blue;
+height: 80px;
+}
