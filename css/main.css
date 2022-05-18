@@ -166,7 +166,6 @@ top: 201px;
     
 }
 
-
 .tituloo{
     display: flex;
     justify-content: center;
@@ -180,11 +179,13 @@ display: flex;
     color: #07280F;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
 }
 
 .fundadores{
     display: flex;
     width: 950px;
+    margin-top:10px;
 }
 
 .fundadores-img{
@@ -214,28 +215,36 @@ display: flex;
     flex-wrap: wrap;
 } */
 .caixa1-missao{
-width: 351px;
+width: 400px;
 height: 750px;
 left: 964px;
 top: 1420px;
+margin-top: 100px;
 display: flex;
 background: rgba(130, 155, 137, 0.81);
 border-radius: 3px;
 z-index: 1;
 transform: translate(50%);
+color: white;
+font-family: 'Lustria', serif;
+display: flex;
+align-items: center;
+
+margin: 1cm;
+padding-top: 1cm;
 
 
 }
 .caixa2-missao{
-width: 356px;
-height: 711px;
+width: 400px;
+height: 750px;
 left: 978px;
 top: 134px;
+margin-bottom: 90px;
+margin-left: 1%;
 display: flex;
-justify-content: flex-end;
-align-items: center;
-transform: translate(50%);
-
+flex-wrap: wrap;
+transform: translate(10%);
 background: rgba(85, 119, 94, 0.95);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 3px;
@@ -243,26 +252,135 @@ z-index: -1;
 
 }
 .missao-titulo{
-    transform: translate(100%,80%);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+#sobrenos{
+    background-color: aquamarine;
+}
+.missao-texto{
+    margin-left: 10%;
+    margin-bottom: 20%;
+    
+}
+.visao-title{
+    height: 5%;
+    font-size: 1.5rem;
+    margin-left: 70%;
+    margin-top: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.visao-texto{
+    margin-left: 10%;
+}
+.valores-title{
+    height: 4%;
+    font-size: 1.5rem;
+    margin-left: 10%;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding-top: 20%;
+    padding-bottom:5%;
+    
+}
+.valores-container-esquerda{
+    
+    display: flex;
+    flex-direction: column;
+    width:40%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 10%;
+    z-index: 1;
+    justify-content: flex-start;
+    text-align: start;
+    
+
+}
+.linha-missa{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 10%;
+    width: 1px;
+    
+}
+.valores-all{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    
+     
+}
+.valores-container-direita{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    width: 20%;
+    height: 15%;
+    margin-top: 33%;
+}
+
+
 .beneficios-container{
-background-color: #BBC9BF;
     
 }
 .beneficios-titulo{
     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.items-imgs{
+    width: 15%;
+    height: 10%;
+    flex-direction: column;
     justify-content: center;
+   background-color: aquamarine;
+    
 }
 .titulo-cap{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    margin-left: 70%;
+    height: 110px;
+    
+}
+.list2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 20%;
+    width: 20%;
+    margin-left: 20%;
+   position: relative;
+   margin-bottom: 80%;
+   background-color: tomato;
+   
     
 }
 .lista{
-    background-color: tomato;
-    display: flex;
+    padding-top: 65px;
+    background-color: #BBC9BF;
     
+}   
+.text1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-self: auto;
+}
+.list-cap{  
+   
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
