@@ -180,11 +180,13 @@ display: flex;
     color: #07280F;
     justify-content: center;
     align-items: center;
+    margin-top: 90px;
 }
 
 .fundadores{
     display: flex;
     width: 950px;
+    margin-top:10px;
 }
 
 .fundadores-img{
@@ -214,15 +216,25 @@ display: flex;
     flex-wrap: wrap;
 } */
 .caixa1-missao{
-width: 351px;
+width: 356px;
 height: 750px;
 left: 964px;
 top: 1420px;
+margin-top: 100px;
 display: flex;
 background: rgba(130, 155, 137, 0.81);
 border-radius: 3px;
 z-index: 1;
 transform: translate(50%);
+color: white;
+
+font-family: 'Lustria', serif;
+
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 1cm;
+padding-top: 1cm;
 
 
 }
@@ -231,11 +243,10 @@ width: 356px;
 height: 711px;
 left: 978px;
 top: 134px;
+margin-bottom: 130px;
 display: flex;
-justify-content: flex-end;
-align-items: center;
-transform: translate(50%);
-
+flex-wrap: wrap;
+transform: translate(10%);
 background: rgba(85, 119, 94, 0.95);
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 border-radius: 3px;
@@ -243,8 +254,49 @@ z-index: -1;
 
 }
 .missao-titulo{
-    transform: translate(100%,80%);
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+
 }
+.visao-title{
+    font-size: 1.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.valores-title{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+}
+.valores-container-esquerda{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    width:50%;
+    height: 20%;
+    z-index: 1;
+    padding-top: 20;
+    position: relative;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.valores-container-direita{
+    background-color: crimson;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
 
 .beneficios-container{
 background-color: #BBC9BF;
