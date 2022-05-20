@@ -20,7 +20,7 @@ Antony Gabriel - Gerente de UX Design
 Melissa Victória - Supervisora de UI Design
 *(Realizou uma parte do Figma e as páginas Sobre nós e Fundadores)*
 
-Leonel Ramos - Desenvolvedor *(Realizou uma parte do Figma e a página Benefícios e Cpacitação Técnica)*
+Leonel Ramos - Líder de um grupo de desenvolvedores *(Realizou uma parte do Figma e a página Benefícios e Cpacitação Técnica)*
 
 Heitor Pontieri - Diretor Geral do projeto 
 *(Realizou uma parte do Figmam, as páginas home e as header do site e a página Fundadores)*
