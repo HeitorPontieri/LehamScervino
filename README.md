@@ -32,4 +32,13 @@ Heitor Pontieri - Diretor Geral do projeto
 - CSS 3
 - Figma
 
+---
+## Links Importantes
+
+-[Site Online](heitorpontieri.github.io/lehamscervino/)
+
+-[Protótipo realizado no site Figma, que é especializado em Web Design](https://www.figma.com/file/Ft9Zl4jnqNn8ynhsY77A3i/Scervino-Project?node-id=0%3A1)
+
+-[Repositório no Github que é uma rede social para desenvolvedores](https://github.com/HeitorPontieri/LehamScervino)
+
 
