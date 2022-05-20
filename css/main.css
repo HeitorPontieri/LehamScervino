@@ -526,7 +526,8 @@ color: #38513E;
     margin-top: -15px;
     
   }
- 
+  
+  =
   
   #container {
     display: inline-block;
@@ -561,11 +562,10 @@ color: #38513E;
   
   .boxes{
       justify-items: center;
-      padding-left: 10%;
+      padding-left: 100px;
       gap: 200px;
       display: flex;
       flex-wrap: wrap;
-      
             
   }
   
@@ -575,9 +575,6 @@ color: #38513E;
       width: 500px;
       box-shadow: 0px 0px 4px black; 
       transition: all 0.4s;
-      background-color: crimson;
-      display: flex;
-      flex-direction: column;
   }
   
   .box1:hover { background: #BBC9BF;
@@ -589,7 +586,6 @@ color: #38513E;
       background-color: white;
       box-shadow: 0px 0px 3px black;
       transition: all 0.4s;  
-      
   }
   
   .box2:hover { background: #BBC9BF;
@@ -637,7 +633,7 @@ color: #38513E;
   .analista_ambiental{
     font-family: 'Mulish', sans-serif;
     font-size: 1.5rem;
-    display: flex;
+    
     justify-content: center;
     background-color: #54775E;
     
@@ -645,17 +641,14 @@ color: #38513E;
   .analista-content{
     
     display: flex;
-   
-      background-color: aqua;
+      flex-direction: column;
+      
       z-index: 10;
       
-      /* margin-left: 32%; */
+      margin-left: 32%;
       
       
       
-  }
-  .analista-sub{
-      display: flex;
   }
   
   .auxiliar_adm{
@@ -744,10 +737,22 @@ color: #38513E;
     height: 11%;
     border-radius: 3px;
     background-color: #54775E;
-  ''
      color: white;
    font-family: 'Mulish', sans-serif;
   }
+
+  .img_redes{
+      flex-direction: column
+      display: flex;
+      
+  }
+
+ .cargos_div{
+     display: flex;
+     position: absolute;
+     padding-left: 78%;
+     padding-top: 10%;
+ }
 
 
 @media (max-width:768px) {
@@ -764,4 +769,3 @@ color: #38513E;
     .menu-fixo{
         max-width: 100%;
     }
-    
