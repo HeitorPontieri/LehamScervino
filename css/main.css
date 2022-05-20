@@ -369,6 +369,9 @@ z-index: -1;
     align-items: flex-start;
     
 }
+
+
+
 .lista-total{
 
     display: flex;
@@ -490,6 +493,16 @@ color: #38513E;
     margin-right: 6%;
 
 }
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid red;
+}
+#linha-horizontal {
+    width: 350px;
+    border: 1px solid #000;
+    gap: 30px;
+    margin-bottom: 10px;
+}
 
 
 
@@ -513,8 +526,7 @@ color: #38513E;
     margin-top: -15px;
     
   }
-  
-  =
+ 
   
   #container {
     display: inline-block;
@@ -549,10 +561,11 @@ color: #38513E;
   
   .boxes{
       justify-items: center;
-      padding-left: 100px;
+      padding-left: 10%;
       gap: 200px;
       display: flex;
       flex-wrap: wrap;
+      
             
   }
   
@@ -562,6 +575,9 @@ color: #38513E;
       width: 500px;
       box-shadow: 0px 0px 4px black; 
       transition: all 0.4s;
+      background-color: crimson;
+      display: flex;
+      flex-direction: column;
   }
   
   .box1:hover { background: #BBC9BF;
@@ -573,6 +589,7 @@ color: #38513E;
       background-color: white;
       box-shadow: 0px 0px 3px black;
       transition: all 0.4s;  
+      
   }
   
   .box2:hover { background: #BBC9BF;
@@ -620,7 +637,7 @@ color: #38513E;
   .analista_ambiental{
     font-family: 'Mulish', sans-serif;
     font-size: 1.5rem;
-    
+    display: flex;
     justify-content: center;
     background-color: #54775E;
     
@@ -628,14 +645,17 @@ color: #38513E;
   .analista-content{
     
     display: flex;
-      flex-direction: column;
-      
+   
+      background-color: aqua;
       z-index: 10;
       
-      margin-left: 32%;
+      /* margin-left: 32%; */
       
       
       
+  }
+  .analista-sub{
+      display: flex;
   }
   
   .auxiliar_adm{
