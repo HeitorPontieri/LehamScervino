@@ -1,3 +1,35 @@
-# Scervino---Leham
-# LehamScervino
-# ScervinoLeham
+# Projeto Integrador
+
+Projeto desenvolvido pela empresa Leham Enterprises, onde a Atlantis Scervino Sustentáveis LTDA, por intermédio do SENAI Jandira, nos contratou para realizarmos uma branding page,divulgando a marca e recrutando novos colaboradores
+
+![](./img/Logo%20Scervino%201.png)
+&
+![](./img/LehamLogo.png)
+
+
+---
+
+## Objetivo
+Recrutamento e marketing da empresa e suas qualidades dentro do meio corporativo, além de mostrar as qualidades de se tornar um colaborador Scervino, 
+
+---
+## Integrantes
+Antony Gabriel - Gerente de UX Design 
+*(Realizou uma parte do Figma e o footer)*
+
+Melissa Victória - Supervisora de UI Design
+*(Realizou uma parte do Figma e as páginas Sobre nós e Fundadores)*
+
+Leonel Ramos - Desenvolvedor *(Realizou uma parte do Figma e a página Benefícios e Cpacitação Técnica)*
+
+Heitor Pontieri - Diretor Geral do projeto 
+*(Realizou uma parte do Figmam, as páginas home e as header do site e a página Fundadores)*
+
+---
+## Tecnologias usadas
+
+- HTML 5
+- CSS 3
+- Figma
+
+
