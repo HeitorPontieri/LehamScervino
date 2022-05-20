@@ -2,9 +2,7 @@ section{
     height: 100vh;
     
 }
-#beneficios{
-    background-color: aquamarinea;
-}
+
 
 .home{
 
@@ -380,8 +378,8 @@ z-index: -1;
     font-family: 'Lustria';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
     color: #38513E;
     margin-left: 1%;
     
@@ -437,8 +435,8 @@ z-index: -1;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 2.25rem;
+    line-height: 2.813rem;
     color: #07280F;
 }
 .cap-titulo{
@@ -446,8 +444,8 @@ z-index: -1;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 36px;
-    line-height: 45px;
+    font-size: 2.25rem;
+    line-height: 2.813rem;
     color: #07280F; 
 }
 .list-cap{
@@ -459,8 +457,8 @@ z-index: -1;
     font-family: 'Lustria';
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 26px;
+    font-size: 1.25rem;
+    line-height: 1.625rem;
 
 color: #38513E;
 }
@@ -469,8 +467,8 @@ color: #38513E;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
     color: #38513E;
 }
 .cap-text{
@@ -478,7 +476,7 @@ color: #38513E;
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;line-height: 30px;
+    font-size: 1.5rem;line-height: 1.875rem;
     color: #38513E;
 }
 .lista-beneficios-captec{
@@ -494,11 +492,7 @@ color: #38513E;
 }
 
 
-.#vagas{
-background-color: #829B89;
 
-    
-}
 .title_vagas{
     background-color: #BBC9BF;
     display: flex;
@@ -546,18 +540,20 @@ background-color: #829B89;
   
   .vagas_container{
       width: 100%;
+      height: 100%;
       background-color:#BBC9BF;
+      
       display: flex;
       position: relative;
   }
   
   .boxes{
       justify-items: center;
-      
-      margin-left: 100px;
+      padding-left: 100px;
       gap: 200px;
       display: flex;
       flex-wrap: wrap;
+            
   }
   
   .box1{
@@ -691,8 +687,9 @@ background-color: #829B89;
     color: #000;
     font-family: 'Lustria', serif;
     display: flex;
-    lign-items: center;
+    align-items: center;
     margin-left: 79.6%;
+    
   }
   
   .periodos{
