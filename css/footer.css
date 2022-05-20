@@ -1,0 +1,57 @@
+footer{
+    background-color:#4D6A55;
+    width: 100%;
+    display: flex;
+    margin-top: 10%;
+}
+
+
+.map{
+    padding-top: 3%;
+    padding-bottom: 3%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    justify-items: center;
+    margin-left: 33%;
+}
+
+.redes{
+    justify-content: center;
+    font-family: 'Mulish', sans-serif;
+    padding-left: 15%;
+    padding-top: 6%;
+    color: white;
+    font-size: 1.3rem;
+}
+
+.redes_sociais{
+    font-size: 1.6rem;
+}
+
+.facebook{
+
+}
+.contatos{
+    font-family: 'Mulish', sans-serif;
+    color: white;
+    font-size: 1.6rem;
+    position: absolute;
+    margin-top: 6%;
+    padding-left: 5%;
+    
+
+} 
+
+.numero_contato{
+    font-size: 1.3rem;
+}
+
+.email_contato{
+    font-size: 1.6rem;
+}
+
+.email{
+    font-size: 1.3rem;
+}
+footer

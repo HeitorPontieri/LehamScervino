@@ -358,31 +358,36 @@ z-index: -1;
     justify-content: center;
     gap: 20px;
 }
-#benefiucios{
-    background-color: #B9F2C8;
+#beneficios{
+    background-color:#CDE0CD;
 }
 .beneficios-container{
+
     
 }
 .beneficios-titulo{
+
     justify-content: flex-start;
     align-items: flex-start;
     
 }
 .lista-total{
+
     display: flex;
     width: 50%;
-    justify-content: space-around;
-    background-color: aqua;
+    flex-wrap: wrap;
+    gap: 12%;
     font-family: 'Lustria';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
     color: #38513E;
+    margin-left: 1%;
     
 }
 .items-imgs{
+
     width: 30%;
     height: 10%;
     flex-direction: column;
@@ -392,9 +397,11 @@ z-index: -1;
 }
 .titulo-cap{
     display: flex;
-    background-color: crimson;
+    margin-top: 3%;
+
     flex-direction: column;
-    width: 90%;
+    width: 40%;
+    height: 40%;
     margin-left: 30%;
     font-family: 'Mulish';
     font-style: normal;
@@ -407,16 +414,17 @@ z-index: -1;
 
 .list2{
     display: flex;
-    background-color: blue;
+
     flex-direction: column;
-    height: 15%;
-    width: 30%;
+    height: 100%;
+    width: 40%;
     margin-left: 2%;
    position: relative;
 }
-  
+
 .text1{
-    justify-content: center;
+
+    margin-top: 3%;
     width: 40%;
     height: 20%;
     margin-left: 1%;
@@ -425,7 +433,7 @@ z-index: -1;
     font-weight: 400;
 }
 .beneficios-titulo{
-    
+
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -434,6 +442,7 @@ z-index: -1;
     color: #07280F;
 }
 .cap-titulo{
+
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
@@ -442,39 +451,287 @@ z-index: -1;
     color: #07280F; 
 }
 .list-cap{
-   margin-top: 20%;
+    flex-wrap: wrap;
+    height: 40%;
+    width: 30%;
+
+    margin-bottom: 10%;
     font-family: 'Lustria';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    color: #38513E;
+
+color: #38513E;
 }
 .bene-text{
+
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
-    font-size: 24px;line-height: 30px;
+    font-size: 24px;
+    line-height: 30px;
     color: #38513E;
 }
 .cap-text{
+    
     font-family: 'Mulish';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;line-height: 30px;
     color: #38513E;
 }
+.lista-beneficios-captec{
+
+    display: flex;
+    margin-top: 5%;
+    height: 40%;
+    margin-bottom: 20%;
+    flex-direction: row-reverse;
+    gap: 20%;
+    margin-right: 6%;
+
+}
 
 
-.vagas-container{
+.#vagas{
 background-color: #829B89;
 
     
 }
-footer{
-background-color: blue;
-height: 80px;
-}
+.title_vagas{
+    background-color: #BBC9BF;
+    display: flex;
+    justify-content: center;
+    padding-top: 75px;
+    color: #07280F;
+    font-size: 24px;
+    height: 13vh;
+    font-family: 'Lustria', serif;
+  }
+  
+  .linha-horizontal_vagas {
+    position: absolute;
+    border: 1px solid #000;
+    opacity: 0.8;
+    width: 550px;
+    margin-left: 650px;
+    margin-top: -15px;
+    
+  }
+  
+  =
+  
+  #container {
+    display: inline-block;
+    position: relative;
+  }
+  
+  #container figcaption {
+    position: absolute;
+    top: 250px;
+    font-size: 2.4rem;
+    color: white;
+    text-shadow: 2px 4px 0px black;
+    font-family: 'Mulish', sans-serif;
+    width: 1000px;
+    flex-wrap: wrap;
+    margin-left: 29%;
+    margin-bottom: 15%;
+  }
+  
+  .img_vagas{ 
+      width: 100%;
+  }
+  
+  .vagas_container{
+      width: 100%;
+      background-color:#BBC9BF;
+      display: flex;
+      position: relative;
+  }
+  
+  .boxes{
+      justify-items: center;
+      
+      margin-left: 100px;
+      gap: 200px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .box1{
+     
+      height: 250px;
+      width: 500px;
+      box-shadow: 0px 0px 4px black; 
+      transition: all 0.4s;
+  }
+  
+  .box1:hover { background: #BBC9BF;
+  }
+  
+  .box2{
+      height: 250px;
+      width: 500px;
+      background-color: white;
+      box-shadow: 0px 0px 3px black;
+      transition: all 0.4s;  
+  }
+  
+  .box2:hover { background: #BBC9BF;
+  }
+  
+  .box3{
+      height: 250px;
+      width: 500px;
+      background-color: white;
+      box-shadow: 0px 0px 4px black;
+      transition: all 0.4s; 
+  }
+  
+  .box3:hover { background: #BBC9BF;
+  }
+  
+  .box4{
+      height: 250px;
+      width: 500px;
+      background-color: white;
+      box-shadow: 0px 0px 4px black;
+      transition: all 0.4s;
+  }
+  
+  .box4:hover { background: #BBC9BF;
+  }
+  
+  .analista{
+    height: 219px;
+    
+  }
+  
+  .aux{
+    height: 219px;
+  }
+  
+  .embalador{
+    height: 220px;
+  }
+  
+  .assistente_{
+    height: 220px;
+  }
+  
+  .analista_ambiental{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    
+    justify-content: center;
+    background-color: #54775E;
+    
+  }
+  .analista-content{
+    
+    display: flex;
+      flex-direction: column;
+      
+      z-index: 10;
+      
+      margin-left: 32%;
+      
+      
+      
+  }
+  
+  .auxiliar_adm{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #54775E;
+   
+  }
+  
+  .embalador_maquina{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #54775E;
+    
+  }
+  
+  .assistente_treinamento{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    background-color: #54775E;
+   
+  }
+  
+  .filtrar{
+      display: flex;
+      background-color: #54775E;
+      border-radius: 5px;
+      width: 300px;
+      height: 55px;
+      font-family: 'Mulish', sans-serif;
+      font-size: 1.5rem;
+      padding-left: 100px;
+      align-items: center;
+      margin-left: 1470px;
+      margin-top: 100px;
+      position: absolute;
+      
+      box-sizing: border-box;
+  }
+   
+  .cargos{
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Lustria', serif;
+    display: flex;
+    lign-items: center;
+    margin-left: 79.6%;
+  }
+  
+  .periodos{
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Lustria', serif;
+    display: flex;
+    lign-items: center;
+    margin-left: 79.6%;
+  }
+  
+  .area{
+    font-size: 1.5rem;
+    color: #000;
+    font-family: 'Lustria', serif;
+    display: flex;
+    align-items: center;
+    margin-left: 79.6%;
+  }
+  
+  .search{
+      margin-left: 5%;
+  }
+  
+ 
+  .ver_oportunidade1{
+    font-size: 1.1rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 33%;
+    height: 11%;
+    border-radius: 3px;
+    background-color: #54775E;
+  ''
+     color: white;
+   font-family: 'Mulish', sans-serif;
+  }
+
 
 @media (max-width:768px) {
     body{
